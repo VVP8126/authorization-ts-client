@@ -1,0 +1,123 @@
+* { margin:0; padding: 0; }
+.centered {
+    text-align:center;
+}
+.margined {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    padding:5px;
+}
+
+
+/* Login form styles */
+.form {
+    min-width: 450px;
+    width: 50%;
+    padding: 5px;
+    margin:0 auto;
+}
+.label {
+    margin-top: 15px;
+    font-size: large;
+}
+.input {
+    width:100%;
+    font-size: large;
+    padding:4px 8px;
+}
+.inputBlock {
+    margin-bottom: 20px;
+}
+.btnArea {
+    width: calc(100% + 18px);
+}
+.btnArea::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.btn {
+    cursor: pointer;
+    display: block;
+    width:33%;
+    margin: 30px auto;
+    background: grey;
+    padding:10px;
+    border: none;
+    border-radius: 4px;
+}
+.whiteBackground {
+    background: white;
+    border: 1px solid #AAA;
+}
+.btn:hover {
+    background: black;
+    color:white;
+}
+.whiteBackground:hover {
+    background: #AAA;
+    color: black;
+}
+.logoutBlock {
+    width: calc(100% + 20px);
+}
+.logoutTopMenu::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.logoutBlock::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.leftLabel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:65%;
+    float:left;
+}
+.logoutBtn {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    width:30%;
+    background: grey;
+    padding:5px 0;
+    border: none;
+}
+.logoutBtn:hover {
+    background: #333;
+    color:white;
+}
+.headerH2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.spinner {
+    width:80px;
+    height:80px;
+    border-top:10px solid black;
+    border-bottom:10px solid black;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    margin:100px auto;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {transform: 0;}
+    to { transform: 180deg;}
+}
